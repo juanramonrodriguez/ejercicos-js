@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(36, 34, 34);
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.container h1 {
+  display: flex;
+  font-size: 100px;
+  font-weight: 800;
+  color: white;
+  animation: titulo 2s ease-in;
+  -webkit-animation: titulo 3s ease-in;
+}
+@keyframes titulo {
+  from {
+    opacity: -1;
+  }
+  to {
+    opacity: 1;
+  }
+}
